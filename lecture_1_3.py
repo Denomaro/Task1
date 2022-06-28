@@ -9,7 +9,3 @@ def zeros(n):
         x /= 5
         y += int(x)
     return y
-
-assert zeros(0) == 0
-assert zeros(6) == 1
-assert zeros(30) == 7
